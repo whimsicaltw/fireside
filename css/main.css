@@ -1,0 +1,124 @@
+@charset "UTF-8";
+* {
+  font-family: Ubuntu,Noto Sans TC,微軟正黑體; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold; }
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  font-weight: bold;
+  background: white;
+  letter-spacing: 2px; }
+  nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+    color: #182336;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+      color: #E6874D; }
+
+header.jumbotron {
+  height: 100%;
+  text-align: center;
+  background-image: url(http://i.imgur.com/vgEgAeV.jpg);
+  background-size: cover;
+  background-position: center -80px;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  letter-spacing: 3px; }
+  header.jumbotron .container {
+    color: white;
+    padding: 270px 0px; }
+  header.jumbotron h1 {
+    background: #182336;
+    display: inline-block;
+    padding: 5px 10px;
+    letter-spacing: 7px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    header.jumbotron h1:hover {
+      color: #E6874D; }
+  header.jumbotron h4 {
+    font-weight: bold;
+    background: #182336;
+    display: inline-block;
+    padding: 5px 10px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    header.jumbotron h4:hover {
+      color: #E6874D; }
+
+section {
+  padding: 50px 0px;
+  color: white;
+  letter-spacing: 5px;
+  background: #182336; }
+  section h3 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #E6874D; }
+  section h2 {
+    text-align: center; }
+  section h1 {
+    text-align: center; }
+
+section#section_ask {
+  background-color: #E6874D; }
+  section#section_ask .col-sm-5.img {
+    background-image: url(https://www.booklife.com.tw/upload_files/booklife/website/g0200021%20-c2.jpg);
+    height: 350px;
+    mix-blend-mode: multiply; }
+  section#section_ask h2 {
+    margin-top: 130px;
+    padding: 0px 20px; }
+
+section#section_contact img {
+  padding: 60px 30px;
+  width: 200px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center; }
+  section#section_contact img:hover {
+    width: 230px; }
+
+section#section_contact .img_wrap {
+  height: 230px;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+header.contact {
+  color: white;
+  letter-spacing: 3px; }
+
+.ppppp {
+  text-align: center;
+  padding: 30px 0px;
+  letter-spacing: 5px; }
+
+.contact {
+  height: 500px;
+  background: #182336;
+  text-align: center; }
+
+.CC {
+  background: #182336;
+  padding: 25px;
+  text-align: center;
+  color: white; }

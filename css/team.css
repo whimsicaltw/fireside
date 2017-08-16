@@ -1,0 +1,87 @@
+@charset "UTF-8";
+* {
+  font-family: Ubuntu,Noto Sans TC,微軟正黑體; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold; }
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  font-weight: bold;
+  background: white;
+  letter-spacing: 2px; }
+  nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+    color: #182336;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+      color: #E6874D; }
+
+.banner {
+  height: 500px;
+  text-align: center;
+  background-color: #182336;
+  background-size: cover;
+  background-position: center -80px;
+  margin-bottom: 0px; }
+  .banner .title {
+    padding: 300px 0px;
+    color: white;
+    letter-spacing: 8px; }
+    .banner .title hr {
+      border: solid 2px #E6874D;
+      max-width: 30px; }
+
+header.contact {
+  height: auto;
+  background-color: #182336;
+  text-align: center;
+  position: relative; }
+  header.contact .people {
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border: solid 1px #E6874D;
+    margin: 30px;
+    background-color: #182336;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    overflow: hidden; }
+    header.contact .people:hover {
+      -webkit-transform: translate(-3px, -3px);
+      -ms-transform: translate(-3px, -3px);
+      transform: translate(-3px, -3px); }
+    header.contact .people .image {
+      height: 70%;
+      border: solid 1px #E6874D; }
+      header.contact .people .image .name {
+        color: white;
+        font-size: 25px;
+        padding: 160px 0px 0px 0px;
+        letter-spacing: 3px; }
+    header.contact .people .introduction {
+      text-align: justify;
+      height: 30%;
+      border: solid 1px #E6874D;
+      color: white;
+      padding: 5px 12px;
+      letter-spacing: 1px; }
+
+.CC {
+  background: #182336;
+  padding: 25px;
+  text-align: center;
+  color: white; }
