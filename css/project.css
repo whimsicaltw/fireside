@@ -1,0 +1,66 @@
+@charset "UTF-8";
+* {
+  font-family: Ubuntu,Noto Sans TC,微軟正黑體; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold; }
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  font-weight: bold;
+  background: white;
+  letter-spacing: 2px; }
+  nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+    color: #182336;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+      color: #E6874D; }
+
+.banner {
+  height: 500px;
+  text-align: center;
+  background-color: #182336;
+  background-size: cover;
+  background-position: center -80px;
+  margin-bottom: 0px; }
+  .banner .title {
+    padding: 300px 0px;
+    color: white;
+    letter-spacing: 8px; }
+    .banner .title hr {
+      border: solid 2px #E6874D;
+      max-width: 30px; }
+
+header.contact {
+  height: auto;
+  background-color: #182336;
+  text-align: center;
+  position: relative;
+  color: white;
+  letter-spacing: 3px; }
+  header.contact a {
+    font-size: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    color: #E6874D; }
+    header.contact a:hover {
+      font-size: 40px; }
+
+.CC {
+  background: #182336;
+  padding: 25px;
+  text-align: center;
+  color: white; }

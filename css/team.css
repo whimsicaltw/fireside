@@ -49,7 +49,7 @@ header.contact {
   text-align: center;
   position: relative; }
   header.contact .people {
-    border-radius: 10px;
+    border-radius: 15px;
     width: 200px;
     height: 300px;
     display: inline-block;
@@ -66,12 +66,48 @@ header.contact {
       transform: translate(-3px, -3px); }
     header.contact .people .image {
       height: 70%;
-      border: solid 1px #E6874D; }
+      border: solid 1px #E6874D;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
+      header.contact .people .image:hover {
+        background-position: -130%; }
       header.contact .people .image .name {
-        color: white;
+        background-color: #182336;
+        color: #E6874D;
         font-size: 25px;
-        padding: 160px 0px 0px 0px;
+        margin: 160px 50px;
         letter-spacing: 3px; }
+    header.contact .people .image01 {
+      background-image: url(http://i.imgur.com/fE8Yas1.jpg);
+      background-size: cover; }
+    header.contact .people .image02 {
+      background-image: url(http://i.imgur.com/Kd8roic.jpg);
+      background-size: cover; }
+    header.contact .people .image03 {
+      background-image: url(http://i.imgur.com/dOWHiby.jpg);
+      background-size: cover; }
+    header.contact .people .image04 {
+      background-image: url(http://i.imgur.com/yZzubWo.jpg);
+      background-size: cover; }
+    header.contact .people .image05 {
+      background-image: url(http://i.imgur.com/IOTEqAs.jpg);
+      background-size: cover; }
+    header.contact .people .image06 {
+      background-image: url(http://i.imgur.com/j7hn2dB.jpg);
+      background-size: cover; }
+    header.contact .people .image07 {
+      background-image: url(http://i.imgur.com/uVUXGQl.jpg);
+      background-size: cover; }
+    header.contact .people .image08 {
+      background-image: url(http://i.imgur.com/6Dowjzz.jpg);
+      background-size: cover; }
+    header.contact .people .image09 {
+      background-image: url(http://i.imgur.com/Y7qk9cT.jpg);
+      background-size: cover; }
+    header.contact .people .image10 {
+      background-image: url(http://i.imgur.com/NscOtAJ.jpg);
+      background-size: cover; }
     header.contact .people .introduction {
       text-align: justify;
       height: 30%;
