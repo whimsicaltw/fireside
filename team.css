@@ -32,7 +32,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
   height: 500px;
   text-align: center;
   background-color: #182336;
-  background-size: cover;
+  background-size: coverw;
   background-position: center -80px;
   margin-bottom: 0px; }
   .banner .title {
@@ -100,7 +100,7 @@ header.contact {
       background-image: url(http://i.imgur.com/Y7qk9cT.jpg);
       background-size: cover; }
     header.contact .people .image10 {
-      background-image: url(http://i.imgur.com/NscOtAJ.jpg);
+      background-image: url(https://i.imgur.com/68OIf4h.jpg);
       background-size: cover; }
     header.contact .people .introduction {
       text-align: justify;
