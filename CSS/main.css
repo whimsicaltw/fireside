@@ -1,0 +1,43 @@
+@charset "UTF-8";
+* {
+  font-family: Ubuntu,Noto Sans TC,微軟正黑體;
+  letter-spacing: 1px; }
+
+.nav .container .navbar-brand {
+  color: #333; }
+
+.logo {
+  background-color: #fff;
+  text-align: center;
+  margin: 0px 0px 20px 0px; }
+  .logo img {
+    min-width: 200px;
+    width: 20%; }
+
+section {
+  text-align: center;
+  color: #333; }
+  section img {
+    border: solid 1px #333;
+    max-width: 1080px;
+    width: 90%; }
+  section h5 {
+    margin: 60px 60px 0px 60px;
+    letter-spacing: 2px; }
+  section h6 {
+    font-family: 微軟正黑體;
+    margin: 30px 55px 70px 55px;
+    font-size: 14px; }
+  section a {
+    color: #333;
+    background-color: #e6e6e6;
+    margin: 0px 0px 50px 0px; }
+    section a:hover {
+      color: #e6e6e6;
+      background-color: #333; }
+
+.copyright {
+  text-align: center;
+  color: #e6e6e6;
+  background-color: #333;
+  padding: 20px 0px 5px 0px; }
